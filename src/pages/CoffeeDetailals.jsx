@@ -49,7 +49,7 @@ const CoffeeDetailals = () => {
                 <p className='text-base'>Rating:</p>
             </div>
             <div>
-                <button onClick={} disabled={isAdded} onClick={()=>handleFavorite(coffee)}  className='btn btn-warning'>
+                <button disabled={isAdded} onClick={()=>handleFavorite(coffee)}  className='btn btn-warning'>
                     Add Favorite
                 </button>
             </div>
